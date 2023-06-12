@@ -2,4 +2,4 @@
 #include <stdlib.h>
 #include <string.h>
 
-int validation(char *input, int debug);
+char *crack(int length, int upper);
