@@ -2,4 +2,5 @@
 #include <stdlib.h>
 #include <string.h>
 
-char *crack(int length, int upper);
+char *crack(char *inp, int length, int upper);
+void appendChar(char *input);

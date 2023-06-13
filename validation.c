@@ -15,6 +15,8 @@ int validation(char *input, int debug) {
         return 0;
     }
 
+    return 2;
+
     /*
     if (!(strcmp("password", input))) {
         return 1;
