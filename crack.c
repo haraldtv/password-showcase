@@ -4,11 +4,15 @@ char *crack(char *inp, int length, int upper) {
     int test = 0;
     int i;
     while (strlen(inp) < length) {
-        appendChar(inp);
+        inp = appendChar(inp, length);
+        printf("%s", inp);
     }
 }
 
-void appendChar(char *input) {
-    char chrctr[20] = "a";
-    strcat(input, chrctr);
+char *appendChar(char *input, int length) {
+    char chrctr[5] = "a";
+    char tmp[length];
+    strcat(tmp, chrctr);
+
+    return tmp;
 }
